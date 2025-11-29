@@ -1,0 +1,82 @@
+.subcribe-button{
+    background-color: rgb(200, 0, 0);
+    border: none;
+    color: aliceblue;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.subcribe-button:hover{
+    opacity: 0.5;
+}
+
+.subcribe-button:active{
+    background-color: aliceblue;
+    color: rgb(200, 0, 0);
+}
+
+.join-button{
+    background-color: white;
+    color: rgb(66, 66, 242);
+    border-color: rgb(66, 66, 242);
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    width: 70px;
+    height: 36px;
+    cursor: pointer;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+.tweet-button{
+    color: white;
+    background-color: rgb(72, 157, 255);
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-size: medium;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.addtocart-button{
+    border: none;
+    background-color: rgb(255, 216, 20);
+    font-size: larger;
+    width: 135px;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s, opacity 0.15s;
+}
+
+.addtocart-button:hover{
+    box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
+    transition: box-shadow none;
+}
+
+.addtocart-button:active{
+    box-shadow: none;
+    opacity: 0.5;
+    transform:translateX(2px) translateY(2px);
+}
+
+.apply-button{
+    background-color: rgb(10,102,194);
+    border: none;
+    color: white;
+    height: 36px;
+    width: 200px;
+    border-radius: 15px;
+    font-weight: bold;
+}
