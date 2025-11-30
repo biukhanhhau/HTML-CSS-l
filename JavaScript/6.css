@@ -1,0 +1,16 @@
+.flexrow{
+    display:flex;
+    flex-direction: row;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+button{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.number{
+    text-align: center;
+    font-size:50px;
+}
