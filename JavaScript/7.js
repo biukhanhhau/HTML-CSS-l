@@ -11,7 +11,7 @@ console.log(u);
 console.log(Math.ceil(3.9));   // round up
 
 console.log(Math.floor(3.9));  //round down
-
+ 
 console.log(Math.pow(x, z));
 
 console.log(Math.log(z));
