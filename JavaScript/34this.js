@@ -18,7 +18,7 @@ baby1.saySometh();
 
 const baby2 = {
     name : "Arrow function",
-    saySometh : () => console.log(`my name is ${this.name}`)
+    saySometh : () => {console.log(`my name is ${this.name}`)}
 }
-
+x   
 baby2.saySometh();
