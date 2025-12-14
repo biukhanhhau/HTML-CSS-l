@@ -43,3 +43,9 @@ function displayBill({lastName, firstName, age=17}){
     console.log(`${firstName}`);
     console.log(`${age}`);
 }
+
+const Person = {
+    lastName : "Bill",
+    firstName : "Nguyen",
+}
+displayBill(Person);
