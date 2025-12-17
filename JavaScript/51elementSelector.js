@@ -31,3 +31,8 @@ Array.from(li).forEach(ele => {ele.style.backgroundColor = "lightgreen"});
 //  This one select first element by tag name or NULL
 const sel = document.querySelector("h4");
 sel.style.backgroundColor = "black";
+
+
+// 5. document.querySelectorAll()
+// can use ForEach() return NodeList instead of HTMLCollection
+const foods = document.querySelectorAll("li");
